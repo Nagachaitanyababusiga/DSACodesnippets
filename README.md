@@ -1,0 +1,3 @@
+# THIS IS MY CODE SNIPPETS FOLDER FOR PRACTICE AND REVISION FOR DSA
+
+## Hope you enjoy this repository
