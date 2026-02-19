@@ -1,0 +1,2 @@
+javac -d ./bin MyClass.java
+java -cp ./bin MyClass
