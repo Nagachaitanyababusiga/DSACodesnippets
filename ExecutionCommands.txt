@@ -1,2 +1,13 @@
 javac -d ./bin MyClass.java
 java -cp ./bin MyClass
+
+
+// to open a image with white background
+feh -B white ./assets/binaryliftingexample.png
+
+// to save the image with white background
+magick ./assets/binaryliftingexample.png -background white -flatten ./assets/binarylifting_white.png
+
+
+//to save with 200% zoom with white background
+magick ./assets/binaryliftingexample.png -background white -flatten -resize 200% ./assets/binarylifting_zoomed_white.png

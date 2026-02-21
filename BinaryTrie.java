@@ -101,4 +101,5 @@ class TrieNode{
     TrieNode one,zero;
 }
 
-//link for practice problem: https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/
+// link for practice problem: https://leetcode.com/problems/maximum-subarray-xor-with-bounded-range/
+// practice problem-2: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
