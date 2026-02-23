@@ -76,7 +76,7 @@ public class BinaryLifting {
     }
     //(4.)
     public static int kthAncestor(int a,int k,int[][] up,int l){
-        for(int i=0;i<=l;i++){
+        for(int i=l;i>=0;i--){
             if((k&(1<<i))>0) a=up[a][i];
         }
         return a;
