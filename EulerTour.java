@@ -29,7 +29,7 @@ public class EulerTour{
         for(int child:tree.getOrDefault(root,new ArrayList<>())){
             if(child==parent) continue;
             compute(child,root,tree,et);
+            et.add(root);
         }
-        et.add(root);
     }
 }
