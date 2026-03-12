@@ -1,6 +1,10 @@
 javac -d ./bin MyClass.java
 java -cp ./bin MyClass
 
+//to run in a package
+javac -d ./bin ./practice/MyClass.java
+java -cp ./bin practice.MyClass
+
 
 // to open a image with white background
 feh -B white ./assets/binaryliftingexample.png
